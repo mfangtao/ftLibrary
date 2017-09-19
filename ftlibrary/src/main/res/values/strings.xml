@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FTLibrary</string>
+
+    <string name="test">this is test string!!</string>
+</resources>

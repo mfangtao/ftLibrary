@@ -13,21 +13,21 @@ import java.util.Iterator;
  * 邮箱：7490725@qq.com
  */
 
-public class FTAsyncHttpUtils {
+public class FTHttpUtils {
     private static final Object mLock = new Object();
-    private static FTAsyncHttpUtils mInstance;
+    private static FTHttpUtils mInstance;
 
-    public static FTAsyncHttpUtils getmInstance() {
+    public static FTHttpUtils getmInstance() {
         synchronized (mLock)
         {
             if (mInstance == null )
             {
-                mInstance = new FTAsyncHttpUtils();
+                mInstance = new FTHttpUtils();
             }
             return mInstance;
         }
     }
-    public FTAsyncHttpUtils(){}
+    public FTHttpUtils(){}
 
 
     /**

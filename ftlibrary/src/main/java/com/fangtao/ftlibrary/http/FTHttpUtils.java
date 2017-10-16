@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 /**
+ * HTTP请求方法
  * 作者：涛锅锅
  * 时间：2017/9/19 15:51
  * 邮箱：7490725@qq.com
